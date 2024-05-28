@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_cooking" translatesAutoresizingMaskIntoConstraints="NO" id="TsJ-y3-NP6">
+                                <rect key="frame" x="-65" y="376" width="462" height="458"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="458" id="r2d-zL-iJl"/>
+                                    <constraint firstAttribute="width" constant="462" id="zhJ-3F-0VZ"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_middle" translatesAutoresizingMaskIntoConstraints="NO" id="QtZ-Ct-wCJ">
+                                <rect key="frame" x="103.5" y="232" width="168" height="136"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="168" id="B05-h3-PKT"/>
+                                    <constraint firstAttribute="height" constant="136" id="rNo-qJ-bkR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98969632387161255" green="0.40572994947433472" blue="0.003414772916585207" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="QtZ-Ct-wCJ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gNt-JS-td0"/>
+                            <constraint firstItem="TsJ-y3-NP6" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="167" id="ikt-MT-sDC"/>
+                            <constraint firstItem="QtZ-Ct-wCJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="212" id="nhk-40-nhD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="TsJ-y3-NP6" secondAttribute="leading" constant="65" id="oNY-Wb-JYo"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_cooking" width="462" height="458"/>
+        <image name="splash_middle" width="168" height="136"/>
+    </resources>
+</document>
